@@ -16,7 +16,7 @@ body{
 .nav{
     display: flex;
     justify-content: space-around;
-    margin-top: 20px;
+    margin: 20px;
 }
 .nav-menu{
     display: flex;  
@@ -34,13 +34,22 @@ body{
 }
 .gds-section{
     display: flex;
+    padding-left: 10%;
+    height: 900px;
+    background-color: hsl(0, 0%, 98%);
+    margin-bottom: -80px;
+
 }
 .gds-secleft{
-    margin: 70px;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    text-align: left;
 }
 .gds-secleft h1{
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 200;
 }
 .gds-secleft p{
@@ -48,16 +57,25 @@ body{
     padding: 20px 0px 20px;
 }
 .gdssecUn-btn{
-    padding: 8px;
+    padding: 15px 30px;
     background:linear-gradient(to right in srgb, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
-    border-radius: 30px;
+    border-radius: 35px;
     border: none;
+    color: white;
 }
 .gds-secright{
-    margin-top: 20px;
+    width: 65%;
+    padding-left: 15%;
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
     background-image: url("images/bg-intro-desktop.svg");
-    height: 50%;
 }
+/* .gds-section img{
+    margin-bottom: -100px;
+
+} */
 
 
 
