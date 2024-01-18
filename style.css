@@ -49,7 +49,7 @@ body{
 }
 .gdssecUn-btn{
     padding: 8px;
-    background:linear-gradient(to right in srgb, hsl(136, 65%, 51%), hsl(192, 70%, 51%))
+    background:linear-gradient(to right in srgb, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
     border-radius: 30px;
     border: none;
 }
