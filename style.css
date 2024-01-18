@@ -5,8 +5,14 @@
 }
 .heading{
     background-color: white;
-    margin-left: 90px;
+    padding-left: 90px;
+    font-style: normal;
+    background-color: aliceblue;
+    background-size: 200px;
 }
-.pic1{
-    display: grid;
+.pic{
+    display: flex;
+    padding-left: 90px;
+    background-color: aliceblue;
+    
 }
