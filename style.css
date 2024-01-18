@@ -96,7 +96,7 @@ body{
 .pic{
     display: flex;
     justify-content: space-between;
-    width: 95%;  
+    /* width: 95%;   */
     color: hsl(233, 8%, 62%);
 }
 
