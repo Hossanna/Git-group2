@@ -14,48 +14,36 @@ body{
 }
 
 
-.heading{
-    background-color: white;
-    padding-left: 90px;
-    font-style: normal;
-    background-color: aliceblue;
+.middle-section{
+    padding: 5% 10%;
+    background-color: hsl(220, 16%, 96%);
+}
+.heading p{
+    padding-bottom: 30px;
+    color: hsl(233, 8%, 62%);
+    line-height: 1.5;
 }
 .easy{
+    color: hsl(233, 26%, 24%);
+    font-family: 200;
     padding-bottom: 20px;
 }
-.like{
-    padding-bottom: 30px;
-}
+
 .pic{
     display: flex;
-    padding-left: 90px;
-    background-color: aliceblue;
-    
+    justify-content: space-between;
+    width: 95%;  
+    color: hsl(233, 8%, 62%);
 }
+
 .icon{
     padding-bottom: 20px;
 }
-.simple{
-    padding-bottom: 20px;
-}
-.fast{
-    padding-bottom: 20px;
-}
-.open{
-    padding-bottom: 20px;
-}
-.bank{
-    padding-bottom: 20px;
-}
-.bud{
-    padding-bottom: 20px;
-}
-.onboard{
-    padding-bottom: 20px;
-}
-.api{
-    padding-bottom: 20px;
 
+.title{
+    padding-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 200;
 }
 
 
