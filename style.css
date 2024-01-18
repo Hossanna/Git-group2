@@ -9,9 +9,39 @@
     font-style: normal;
     background-color: aliceblue;
 }
+.easy{
+    padding-bottom: 20px;
+}
+.like{
+    padding-bottom: 30px;
+}
 .pic{
     display: flex;
     padding-left: 90px;
     background-color: aliceblue;
     
+}
+.icon{
+    padding-bottom: 20px;
+}
+.simple{
+    padding-bottom: 20px;
+}
+.fast{
+    padding-bottom: 20px;
+}
+.open{
+    padding-bottom: 20px;
+}
+.bank{
+    padding-bottom: 20px;
+}
+.bud{
+    padding-bottom: 20px;
+}
+.onboard{
+    padding-bottom: 20px;
+}
+.api{
+    padding-bottom: 20px;
 }
