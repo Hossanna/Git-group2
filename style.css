@@ -3,3 +3,48 @@
     padding: 0;
     margin: 0;
 }
+.nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.nav-menu{
+    display: flex;  
+    list-style: none;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+
+}
+.nav-menu ul{
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.gds-section{
+    display: flex;
+}
+.gds-secleft{
+    margin: 70px;
+    
+}
+.gds-secleft h1{
+    font-size: 30px;
+    font-weight: 200;
+}
+.gds-secleft p{
+    font-size: 15px;
+    padding: 20px 0px 20px;
+}
+.gdssecUn-btn{
+    padding: 8px;
+    background-color: rgb(128, 200, 19);
+    border-radius: 30px;
+    border: none;
+}
+.gds-secright{
+    margin-top: 20px;
+    background-image: url("images/bg-intro-desktop.svg");
+    height: 50%;
+}
